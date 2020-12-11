@@ -17,24 +17,21 @@ body{
 
 .container > .long {
     grid-column: 2/5;
-    background-color: turquoise;
-}
+   }
    
 
 .container > .long.columns {
     display:grid;
     grid-template-columns:5fr 1fr 4fr;
-        }
-
-    .container > .long > .left{
-        grid-column: 1/2;
-        background-color: springgreen;
     }
 
-  
-    .container > .long > .right{
+    .container > .long.columns > .left{
+        grid-column: 1/2;
+    }
+
+    .container > .long.columns > .right{
         grid-column: 3/4;
-        background-color: yellow;
+      
     }
 
 @media (max-width: 1100px) {
