@@ -1,6 +1,6 @@
 /*basic*/
 .bg-main-color {
-    background-color: #032F90;
+    background-color: #0045AF;
 }
 /* hero */
 .hero.container.bg-main-color {
@@ -74,7 +74,7 @@ p{
     font-size: 15px;
     line-height: 30px;
     margin-top: 20px;
-    margin-bottom: 15px;
+    
   }
 a{
     text-decoration: none;
@@ -101,3 +101,55 @@ a{
 
 }
 /* footer */
+
+
+footer > div { 
+    Color: white;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin: 6px;
+}
+footer > div> img {
+    width: 150px;
+    margin: 20px;
+}
+footer p {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff9;
+    margin-top: 6px;
+}
+footer p > span > a{
+    color: white
+}
+footer p > a{
+    color: white
+}
+    footer p > span {
+        padding: 0 10px;
+        position: relative;
+    }
+    footer p > span + span::before {
+        content: '';
+        display: inline-block;
+        height: 15px;
+        width: 1px;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        left: -2px;
+        transform: translateY(-50%);
+    }
+
+@media (max-width: 640px) {
+footer p > span {
+    display: inline-block;
+    width: 100%;
+}
+    footer p > span + span::before {
+        display: none;
+    }
+}
