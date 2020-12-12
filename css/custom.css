@@ -144,12 +144,13 @@ footer p > a{
         transform: translateY(-50%);
     }
 
-@media (max-width: 640px) {
-footer p > span {
-    display: inline-block;
-    width: 100%;
-}
-    footer p > span + span::before {
-        display: none;
-    }
-}
+    @media (max-width: 640px) {
+        footer p > span {
+            display: inline-block;
+            width: 100%;
+        }
+            footer p > span + span::before {
+                display: none;
+            }
+        }
+    

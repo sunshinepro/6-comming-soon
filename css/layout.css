@@ -44,10 +44,10 @@ body{
         .container {
             grid-template-columns: 1fr 600px 1fr;
         }
-            .container > .row-short {
+            .container > .short {
                 grid-column: 2/3;
             }
-            .container > .row-long {
+            .container > .long {
                 grid-column: 2/3;
             }
     }
@@ -56,10 +56,13 @@ body{
         .container {
             grid-template-columns: 20px 1fr 20px;
         }
-            .container > .row-long.columns {
+            .container > .long.columns {
                 grid-template-columns: 1fr;
             }
-                .container > .row-long.columns > .right {
+                .container > .long.columns > .right {
                     grid-column: 1/2;
                 }
     }
+
+   
+ 
