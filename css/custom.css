@@ -31,16 +31,8 @@
 .hero >.short > p {
     color: lightgray;
     font-size: 20px;
-
-
-}
-.clock{
-    display: inline-block;
-    width: 100%;
-    Color: white;
-    font-size: 30px;
-    line-height: 60px;
     margin-bottom: var(--gap);
+
 
 }
 .form{
@@ -52,15 +44,7 @@
     margin-bottom: var(--gap);
 
 }
-.mouse{
-    display: inline-block;
-    width: 100%;
-    Color: white;
-    font-size: 30px;
-    line-height: 60px;
-    margin-bottom: var(--gap);
 
-}
 /* main */
 .long.columns{
    
@@ -101,7 +85,26 @@ a{
 
 }
 /* footer */
-
+footer> .long{
+    border-bottom: white solid 1px ;
+    padding: 0px 0 20px 0;
+}
+.fa{
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 10px 0 10px;
+   
+}
+    .fa:hover{
+        color: #0045AF;
+        background-color: white;
+        
+        
+}
 
 footer > div { 
     Color: white;

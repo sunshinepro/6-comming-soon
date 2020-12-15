@@ -2,6 +2,6 @@
 :root {
     --gap: 20px;
     --big-gap: calc(2.5 * var(--gap));
-    --main-color: #03A9F3;
+    --main-color:#0045AF;
     --secondary-color: #EA1E63;
 }
